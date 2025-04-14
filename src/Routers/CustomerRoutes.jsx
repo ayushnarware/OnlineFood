@@ -13,6 +13,7 @@ import NotFound from '../customers/pages/NotFound/NotFound'
 
 
 
+
 const CustomerRoutes = () => {
   return (
     <div className='relative'>
