@@ -11,7 +11,7 @@
 // });
 import axios from 'axios';
 
-export const API_URL = "onlinefoodbackend-production.up.railway.app";
+export const API_URL = "https://onlinefoodbackend-production-7d14.up.railway.app/";
 
 
 export const api = axios.create({
