@@ -70,7 +70,7 @@ const Navbar = () => {
           className="lg:mr-10 cursor-pointer flex items-center space-x-4"
         > {/* Logo Image */}
           <img
-            src="/logo192.png"
+            src="../logo192.png"
             alt="Logo"
             className="h-10 w-10 object-contain rounded-full"
           />
