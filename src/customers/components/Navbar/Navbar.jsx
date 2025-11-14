@@ -17,6 +17,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../../../State/Authentication/Action";
 import { pink } from "@mui/material/colors";
 
+
 const Navbar = () => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -70,7 +71,7 @@ const Navbar = () => {
           className="lg:mr-10 cursor-pointer flex items-center space-x-4"
         > {/* Logo Image */}
           <img
-            src="../logo192.png"
+            src="./logo512.png"
             alt="Logo"
             className="h-10 w-10 object-contain rounded-full"
           />
